@@ -23,7 +23,7 @@ function sendMessage() {
         // Create bot message element
         const botMessage = document.createElement('div');
         botMessage.classList.add('bot-message');
-        botMessage.innerHTML = `<img src="robot.png" alt="robot" class="bot-img"><p>${botResponse}</p>`;
+        botMessage.innerHTML = `<img src="Robot.jpeg" alt="robot" class="bot-img"><p>${botResponse}</p>`;
         chatBox.appendChild(botMessage);
 
         // Scroll to the bottom

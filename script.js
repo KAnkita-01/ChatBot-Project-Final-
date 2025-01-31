@@ -51,7 +51,7 @@ function sendMessage() {
     };
   
     // Simple keyword matching
-    const message = userInput.toLowerCase();
+    const message = userInput.toTitleCase;
     return responses[message] || responses['default'];
   }
   

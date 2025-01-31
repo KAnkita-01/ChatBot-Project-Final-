@@ -46,7 +46,8 @@ function generateBotResponse(userInput) {
         "had your breakfast?": "I'm a robot and I don't eat. Thanks for asking 😅",
         "had your lunch?": "I'm a robot and I don't eat. Thanks for asking 😅",
         "had your dinner?": "I'm a robot and I don't eat. Thanks for asking 😅",
-        "bye": "Bye"
+        "bye": "Bye",
+        "god bless you": "God bless you too"
     };
 
     // Normalize input by converting to lowercase
